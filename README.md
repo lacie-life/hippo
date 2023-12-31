@@ -1,1 +1,6 @@
-# junbot_app_desktop
+# Hippo
+
+The open source robot control gui written by Qt/QML
+
+
+
