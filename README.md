@@ -6,8 +6,8 @@ The open source robot control gui written by Qt/QML
 
 ```bash
 
-mkdir -p ~/junbot_ws/src
-cd ~/junbot_ws/src
+mkdir -p ~/hippo_ws/src
+cd ~/hippo_ws/src
 
 git clone git@github.com:lacie-life/hippo.git
 
@@ -20,6 +20,22 @@ docker build no-cache --tag hippo:latest .
 
 # stop docker
 ./stop_docker.sh
+```
+
+## App run
+
+```bash
+# run docker
+./start_docker.sh
+
+# Build app
+cd ~/hippo_ws/
+catkin_make
+
+# Run
+source devel/setup.bash
+rosrun hippo hippo
+
 ```
 
 ### Main Class

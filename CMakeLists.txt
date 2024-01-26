@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(junbot_gui)
+project(hippo)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -79,14 +79,14 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(junbot_gui
+add_executable(hippo
     ${HEADERS}
     ${SOURCES}
     ${UI_HEADERS}
     ${RCC_SOURCES}
 )
 
-target_link_libraries(junbot_gui PRIVATE
+target_link_libraries(hippo PRIVATE
     ${QT_LIBRARIES}
     ${OpenCV_LIBS}
     ${catkin_LIBRARIES})
