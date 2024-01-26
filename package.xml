@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>junbot_gui</name>
+  <name>hippo</name>
   <version>0.1.0</version>
-  <description>The JunBotGUI package</description>
+  <description>The hippo package</description>
 
   <maintainer email="jun@todo.todo">jun</maintainer>
 
